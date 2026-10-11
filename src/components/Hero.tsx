@@ -10,7 +10,7 @@ export default function Hero() {
             Built for Apple intelligence
           </p>
         </div>
-        <div className="relative group flex items-center justify-center max-w-3xl w-full h-screen">
+        <div className="relative group flex items-center justify-center max-w-3xl w-full lg:h-screen h-[50vh]">
           <div className="absolute w-[80%] h-[50%] bg-linear-to-r from-cyan-500 via-purple-500 to-fuchsia-500 rounded-full blur-[45px] opacity-60 animate-neon-glow pointer-events-none" />
 
           <img
