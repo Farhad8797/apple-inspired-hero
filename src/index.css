@@ -12,3 +12,21 @@ body {
   --font-vidaloka: 'Vidaloka', serif;
   --font-inter: 'Inter', sans-serif;
 }
+
+@keyframes neonGlow {
+  0%,
+  100% {
+    opacity: 0.4;
+    transform: scale(0.95);
+    filter: hue-rotate(0deg) blur(60px);
+  }
+  50% {
+    opacity: 0.85;
+    transform: scale(1);
+    filter: hue-rotate(90deg) blur(85px);
+  }
+}
+
+.animate-neon-glow {
+  animation: neonGlow 4s ease-in-out infinite; /* 4s total cycle: 2s brighten, 2s dim */
+}

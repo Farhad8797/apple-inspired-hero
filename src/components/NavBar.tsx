@@ -7,8 +7,8 @@ import {
 
 export default function NavBar() {
   return (
-    <header className="my-6 px-4 sm:px-8 md:px-12 lg:px-16 bg-black text-white">
-      <nav className="flex items-center justify-between max-w-7xl mx-auto">
+    <header className="top-0 z-50 px-4 sm:px-8 md:px-12 lg:px-16 bg-black/60 text-white sticky backdrop-blur-sm">
+      <nav className="flex items-center justify-between max-w-7xl mx-auto py-4">
         <AppleLogoSVG />
         <ul className="hidden md:flex items-center gap-6 lg:gap-8 text-md font-light font-inter">
           {navLinks.map(({ label }) => (
